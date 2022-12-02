@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .products-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 400px;
+            height: 380px;
+            box-shadow: 5px 10px 8px #888;
+        }
+        .product-card div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+    <title>Lab 6</title>
+</head>
+<body>
+    <!-- TASK 1 -->
+    <h2>TASK1</h2>
+    <form action="">
+        <input type="text" placeholder="Enter Your Name" id="user-name">
+        <input type="password" placeholder="Enter Your Password" id="password">
+        <button id="submit-form">Login</button>
+    </form>
+    <hr>
+
+
+    <!-- TASK 2 -->
+    <h2>Task 2</h2>
+    <div class="products-container"></div>
+    
+    <!-- TASK 3 -->
+    <h2>Task 3</h2>
+    <ul id="todosList"></ul>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

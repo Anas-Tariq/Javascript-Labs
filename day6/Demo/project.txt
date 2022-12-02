@@ -1,0 +1,8 @@
+3 project
+Video, Booking, e-Commerce
+
+sign in/sign up is common
+search bar
+category
+filtaration
+add to cart

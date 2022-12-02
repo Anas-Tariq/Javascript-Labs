@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv>div{
+            color: red;
+        }
+        .worng{
+            border: 3px red solid;
+        }
+        .cls{
+            background-color: aqua;
+            margin: 10px;
+            font-size: larger;
+            padding: 5;
+        }
+        .finsh{
+            text-decoration: line-through;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <button onclick="create()">create</button>
+    <div id="mydiv" class="cldiv" name="ndiv">
+
+        <div >iti aswan</div> 
+    </div>
+    
+    <div class="cldiv" id="mydiv">
+        djkjwjkwdjkwd
+    </div>
+    <div>nddddddddddddd</div>
+    <div >iti aswan</div>
+
+    <input type="text" id="myname" placeholder="enter yoyr name">
+
+    <input type="radio" name="gender" value="male"> male 
+    <input type="radio" value="female" name="gender" > female
+
+    <select name="" id="myselect">
+        <option value="bmw">bmw</option>
+        <option value="fait">fait</option>
+        <option value="toyota">toyota</option>
+        <option value="hondi">hondi</option>
+    </select>
+
+    <input type="button" value="show" onclick="show()">
+    <hr>
+    <img id="myimg" src="download2.jpeg" alt="" onmouseleave="leave()" onmouseover="over()">
+    <hr>
+
+    <input type="text" id="input" placeholder="enter yoyr todos">
+    <button onclick="save()"> save</button>
+    <ul id="todo">
+    </ul>
+
+    <button id="but">Display</button>
+  
+</body>
+<script src="index.js"></script>
+</html>

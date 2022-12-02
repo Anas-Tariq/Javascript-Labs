@@ -1,0 +1,7 @@
+1-data types per vs non per
+2- coercion
+3- hoisting
+4- arr
+4- if and switch
+5- loobs
+6-arrays
