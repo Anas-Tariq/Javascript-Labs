@@ -82,19 +82,21 @@ var legendIndex = 0;
 legendSlider.setAttribute('src',legPic[legendIndex]);
 
 next.addEventListener('click', e => {
-    legendIndex++;    
+    console.log(legendIndex)
     legendSlider.setAttribute('src',legPic[legendIndex]);
-    if (legendIndex > legPic.length - 1) {
-        legendIndex = 0;
+    if (legendIndex == legPic.length - 1) {
+        legendIndex = -1;
     }
+    legendIndex++;
 })
 
 prev.addEventListener('click', e => {
-    legendIndex--;    
+    console.log(legendIndex)
     legendSlider.setAttribute('src',legPic[legendIndex]);
-    if (legendIndex < 0 ) {
-        legendIndex = legPic.length -1;
+    if (legendIndex <= 0 ) {
+        legendIndex = legPic.length ;
     }
+    legendIndex--;
 })
 
 var slidePic;
